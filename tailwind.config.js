@@ -2,7 +2,11 @@
 export default {
   content: [],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        vt323: ['"VT323"', 'monospace'],
+      },
+    },
   },
   plugins: [],
 }
